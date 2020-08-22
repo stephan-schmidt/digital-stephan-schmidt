@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="Stephan Schmidt - Digital Consultant">
+    <meta name="keywords" content="Web, Social Media, Technology">
+
+    <title>Stephan Schmidt</title>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/custom.css" >
+
+    <!-- Awesome Font  -->
+<script src="https://use.fontawesome.com/28dd7ddf7d.js"></script>
+      <!--  -->
+    <style type="text/css">
+      .antispam { display:none;}
+      @font-face {
+        font-family: 'DINwebfont';
+        src: url('fonts/din-webfont.eot'); /* IE9 Compat Modes */
+        src: url('fonts/din-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('fonts/din-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+             url('fonts/din-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+             url('fonts/din-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+             url('fonts/din-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+        src: local('DINwebfont'), local('DINwebfont'), url('fonts/din-webfont.ttf') format('truetype');
+
+      }
+    </style>
+
+    <script type="text/javascript">
+      // split your email into two parts and remove the @ symbol
+      var first = "upruhonu";
+      var last = "zeitraum.re";
+    </script>
+
+    <!-- Google Map Entrance -->
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+
+      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+      // Australia.
+      function initMap() {
+        var isDraggable = $(document).width() > 480 ? true : false; //
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: new google.maps.LatLng(50.1050195,14.4427572),
+          draggable: isDraggable,
+          streetViewControl: false,
+          mapTypeControl: false,
+          scrollwheel: false,
+          styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#46bcec"},{"visibility":"on"}]}]
+        });
+
+        var image = 'img/pin.png';
+        var beachMarker = new google.maps.Marker({
+          position: {lat: 50.1050195, lng: 14.4527572},
+          map: map,
+          icon: image
+        });
+      }
+      google.maps.event.addDomListener(window, 'resize', initMap);
+  google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
+
+     <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBi1KlcwT3yyU5hSyyvdZm3uQKSLOQO4Ic&callback=initMap">
+     </script>
+
+
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">STEPHAN  SCHMIDT</a>
+
+         <button type="button" class="navbar-toggle btn-group-sm" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+         <!-- <a href="/bookings/" role="button"  class="btn btn-default navbar-btn hidden-lg">&nbsp;CONTACT</a> -->
+
+        <!-- <div class="dropdown dropdown-mobile hidden-lg">
+          <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe fa-3" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+            <li><a href="index_ja.html">日本語</a></li>
+            <li><a href="index_de.html">Deutsch</a></li>
+          </ul>
+        </div> -->
+      </div>
+
+
+
+
+
+
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#thegovlab">THE GOVLAB</a></li>
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#tcglobal">THE CONVERSATION</a></li>
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#unu">UNITED NATIONS UNIVERSITY</a></li>
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#zeitgeist">ZEITGEIST</a></li>
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#resume">RESUME</a></li>
+          <li><a class="page-scroll" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://www.twitter.com/_stephanschmidt/" target="_blank"><i class="fa fa-twitter fa-2" aria-hidden="true"></i></a>
+  </li>
+  <li>
+             <a href="https://www.instagram.com/_stephanschmidt/" target="_blank"><i class="fa fa-instagram fa-2" aria-hidden="true"></i></a>
+</li>
+<li>
+<a href="mailto:stephanschmidt.nyc@gmail.com" target="_blank"><i class="fa fa-envelope fa-3" aria-hidden="true"></i></a>
+</li>
+          <!-- <li class="dropdown hidden-sm hidden-md hidden-xs">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe fa-3" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="index_de.html">Deutsch</a></li>
+              <li><a href="index_ja.html">日本語</a></li>
+
+            </ul>
+          </li> -->
+          <!-- <li><a href="/bookings/" role="button" class="btn btn-default navbar-btn hidden-md hidden-sm hidden-xs">CONTACT</a></li> -->
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </div>
+  </nav>
+
+  <section id="thegovlab" class="thegovlab-section">
+    <div class="swiper-container swiper1">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide sm1">
+            <div class="slide-container">
+              <div class="row  blue-pane">
+                <div class="col-xs-12">
+                  <br>
+                  <h2>THE GOVLAB</h2>
+                  <!-- <img src="https://theconversation.com/assets/carlton/logos/logo-7eb5f99842eee4b04f0d879253705740.svg" alt=""><br> -->
+                  <h4>Developer</h4><a href="http://thegovlab.org">
+  </div>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://thegovlab.org" target="_blank"><img src="https://directusdev.thegovlab.com/uploads/thegovlab/originals/f7bc5083-9dd0-4101-bfbb-ea9c12bd4332.png" width="100%" alt=""></a> <br><br>
+        Migration to Headless CMS <br>
+        Vue Development & <br> IT Project Management <br>
+
+</div>
+      <div class="col-md-4">
+        <a href="https://the100questions.org" target="_blank"><img src="https://the100questions.org/images/social-media-general.jpg" width="100%" alt=""></a> <br><br>
+        Front- and Backend development & <br> IT Project Management
+
+</div>
+                <div class="col-md-4">
+                  <a href="https://thelivinglib.org" target="_blank"> <div style="   position:relative;
+  padding-bottom:52%; /*padding-bottom for height*/
+  overflow:hidden;">
+
+                  <img style=" position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;" src="https://thelivinglib.org/wp-content/uploads/2018/11/og-image.png" width="100%" alt=""></div> </a> <br>Development & <br> IT Project Management
+                  </div>
+
+
+      </div>
+
+</div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination0"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
+    </section>
+  <section id="tcglobal" class="tcglobal-section">
+    <div class="swiper-container swiper1">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide sm1">
+            <div class="slide-container">
+              <div class="row  white-pane">
+                <div class="col-xs-12">
+                  <br>
+                  <h2>THE CONVERSATION</h2>
+                  <!-- <img src="https://theconversation.com/assets/carlton/logos/logo-7eb5f99842eee4b04f0d879253705740.svg" alt=""><br> -->
+                  <h4>Audience Developer, Producer</h4><a href="theconversation.com/global">
+  </div>
+    <div class="row">
+                <div class="col-md-4 ">
+                  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTheConversationGlobal%2Fvideos%2F1359499494132218%2F&show_text=0&width=476" width="100%" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+
+                <div class="col-md-4">
+                  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Brazil?src=hash&amp;ref_src=twsrc%5Etfw">#Brazil</a> feminist <a href="https://twitter.com/hashtag/funk?src=hash&amp;ref_src=twsrc%5Etfw">#funk</a> <a href="https://twitter.com/hashtag/carioca?src=hash&amp;ref_src=twsrc%5Etfw">#carioca</a><a href="https://twitter.com/DandaraMc?ref_src=twsrc%5Etfw">@DandaraMc</a> <a  href="https://twitter.com/DeizeTigrona?ref_src=twsrc%5Etfw">@DeizeTigrona</a> @oficialquebra1 <a href="https://twitter.com/ValescaOficial?ref_src=twsrc%5Etfw">@ValescaOficial</a> <a href="https://t.co/FRmBbefQAY">https://t.co/FRmBbefQAY</a> <a href="https://t.co/JJtA0oBDV5">pic.twitter.com/JJtA0oBDV5</a></p>&mdash; Conversation Global (@_TCglobal) <a href="https://twitter.com/_TCglobal/status/888786802651344896?ref_src=twsrc%5Etfw">July 22, 2017</a></blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+                <div class="col-md-4">
+            <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BPgLQw3jf3J/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">What does the world expect of a #Trump presidency?</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by The Conversation (@theconversationglobal) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-01-20T22:21:16+00:00">Jan 20, 2017 at 2:21pm PST</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+  </div>
+      </div>
+
+</div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination0"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
+    </section>
+
+    <section id="unu" class="unu-section ">
+
+      <div class="swiper-container swiper1">
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide itpm1">
+              <div class="slide-container">
+                <div class="row blue-pane">
+                  <div class="col-md-12  ">
+                    <h2>UNITED NATIONS UNIVERSITY</h2>
+                    <!-- <img class="svg" src="img/footer-unu.svg" height="80px" alt=""> <br> -->
+                    <h4>Content Manager, Writer, Producer</h4><br>
+                      </div>
+                        <div class="col-md-4  ">
+                          <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">Reconciling Enemy States: An Interview with Author Seunghoon Emilia Heo <a href="http://t.co/70VYd7Gd">http://t.co/70VYd7Gd</a> <a href="https://twitter.com/hashtag/Culture?src=hash&amp;ref_src=twsrc%5Etfw">#Culture</a> <a href="https://twitter.com/hashtag/Religions?src=hash&amp;ref_src=twsrc%5Etfw">#Religions</a> <a href="https://twitter.com/hashtag/Peace?src=hash&amp;ref_src=twsrc%5Etfw">#Peace</a></p>&mdash; UN University (@UNUniversity) <a href="https://twitter.com/UNUniversity/status/287418979172118529?ref_src=twsrc%5Etfw">January 5, 2013</a></blockquote>
+                          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+                  </div>
+                  <div class="col-md-4  ">
+                    <a href="http://bit.ly/abYubu" target="_blank" style="display:block; height:180px; width:100%; position: absolute;
+    overflow: overlay; z-index:9999">
+                      <div>
+                        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The dark side of cloud computing: soaring carbon emissions http://bit.ly/abYubu</p>&mdash; Guardian Tech (@guardiantech) <a href="https://twitter.com/guardiantech/status/13132502124?ref_src=twsrc%5Etfw">April 30, 2010</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                      </div>
+                    </a>
+
+                    <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">The Gross Domestic Problem <a href="http://t.co/VO09lbNIvQ">http://t.co/VO09lbNIvQ</a></p>&mdash; Our World Magazine (@OurWorld20) <a href="https://twitter.com/OurWorld20/status/316159107306500096?ref_src=twsrc%5Etfw">March 25, 2013</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+            <div class="col-md-4">
+              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Researching Resilience: Young Scholars Look to Communities as Classrooms <a href="http://t.co/N9b7p8Et">http://t.co/N9b7p8Et</a> <a href="https://twitter.com/hashtag/Education?src=hash&amp;ref_src=twsrc%5Etfw">#Education</a> <a href="https://twitter.com/hashtag/HumanSecurity?src=hash&amp;ref_src=twsrc%5Etfw">#HumanSecurity</a> <a href="https://twitter.com/hashtag/Risk?src=hash&amp;ref_src=twsrc%5Etfw">#Risk</a></p>&mdash; UN University (@UNUniversity) <a href="https://twitter.com/UNUniversity/status/297244394745131008?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+        </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination1"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+      </div>
+
+    </section>
+    <section id="zeitgeist" class="unu-section ">
+
+      <div class="swiper-container swiper1">
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide itpm1">
+              <div class="slide-container">
+                <div class="row white-pane">
+                  <div class="col-md-12  ">
+                    <h2>ZEITGEIST ASSETT MANAGEMENT</h2>
+                    <!-- <img class="svg" src="img/footer-unu.svg" height="80px" alt=""> <br> -->
+
+                      </div>
+                      <div class="col-md-4">
+                                <h4>IT Project Manager</h4><br>
+                                <img src="data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0A%3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20215%2060%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xml%3Aspace%3D%22preserve%22%20style%3D%22fill-rule%3Aevenodd%3Bclip-rule%3Aevenodd%3Bstroke-linejoin%3Around%3Bstroke-miterlimit%3A1.41421%3B%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M76.293%2C17.603L82.843%2C17.603L76.017%2C28.29L75.997%2C28.327L75.997%2C31.089L87.03%2C31.089L87.03%2C27.942L80.16%2C27.942L87.006%2C17.207L87.029%2C17.167L87.029%2C14.457L76.29%2C14.457L76.29%2C17.597L76.293%2C17.603ZM91.385%2C31.09L102.441%2C31.09L102.441%2C27.947L94.871%2C27.947L94.871%2C24.277L101.321%2C24.277L101.321%2C21.137L94.871%2C21.137L94.871%2C17.603L102.447%2C17.603L102.447%2C14.463L91.387%2C14.463L91.387%2C31.09L91.385%2C31.09ZM107.552%2C14.46L111.042%2C14.46L111.042%2C31.086L107.552%2C31.086L107.552%2C14.46ZM115.628%2C17.603L119.891%2C17.603L119.891%2C31.09L123.387%2C31.09L123.387%2C17.602L127.65%2C17.602L127.65%2C14.46L115.63%2C14.46L115.63%2C17.603L115.628%2C17.603ZM136.47%2C17.466C137.98%2C17.466%20138.892%2C18.209%20139.255%2C19.733L139.28%2C19.853L142.79%2C19.853L142.758%2C19.677C142.355%2C17.089%20140.481%2C14.322%20136.468%2C14.322C134.666%2C14.322%20133.193%2C14.922%20131.954%2C16.155C130.306%2C17.809%20130.306%2C19.801%20130.306%2C22.553L130.306%2C22.997C130.306%2C25.754%20130.306%2C27.743%20131.954%2C29.395C133.17%2C30.611%20134.694%2C31.225%20136.469%2C31.225C138.399%2C31.225%20139.939%2C30.607%20141.179%2C29.325C142.339%2C28.125%20142.779%2C26.702%20142.779%2C24.245L142.779%2C21.71L136.319%2C21.71L136.319%2C24.668L139.321%2C24.668L139.321%2C25.138C139.321%2C26.008%20139.091%2C26.686%20138.621%2C27.214C138.097%2C27.784%20137.351%2C28.086%20136.464%2C28.086C135.664%2C28.086%20134.977%2C27.802%20134.534%2C27.284C133.964%2C26.656%20133.787%2C25.951%20133.787%2C22.777C133.787%2C19.591%20133.959%2C18.925%20134.534%2C18.283C134.99%2C17.756%20135.676%2C17.466%20136.464%2C17.466L136.47%2C17.466ZM147.553%2C31.09L158.613%2C31.09L158.613%2C27.947L151.041%2C27.947L151.041%2C24.277L157.491%2C24.277L157.491%2C21.137L151.046%2C21.137L151.046%2C17.603L158.619%2C17.603L158.619%2C14.463L147.559%2C14.463L147.559%2C31.09L147.553%2C31.09ZM163.266%2C14.46L166.751%2C14.46L166.751%2C31.086L163.271%2C31.086L163.266%2C14.46ZM178.44%2C21.25L176.515%2C20.974C175.925%2C20.894%20175.399%2C20.672%20175.078%2C20.371C174.798%2C20.118%20174.643%2C19.738%20174.643%2C19.311C174.643%2C18.391%20175.265%2C17.398%20177.015%2C17.398C178.063%2C17.398%20179.265%2C17.53%20180.265%2C18.481L180.369%2C18.583L182.599%2C16.373L182.489%2C16.273C181.089%2C14.928%20179.429%2C14.326%20177.109%2C14.326C173.553%2C14.326%20171.261%2C16.328%20171.261%2C19.431C171.261%2C20.841%20171.661%2C21.931%20172.481%2C22.747C173.231%2C23.477%20174.294%2C23.929%20175.726%2C24.143L177.699%2C24.413C178.489%2C24.536%20178.799%2C24.706%20179.069%2C24.953C179.366%2C25.229%20179.526%2C25.669%20179.526%2C26.217C179.526%2C27.764%20178.032%2C28.087%20176.783%2C28.087C175.1%2C28.087%20173.84%2C27.653%20172.943%2C26.755L172.837%2C26.652L170.561%2C28.927L170.663%2C29.027C172.189%2C30.571%20174.009%2C31.23%20176.74%2C31.23C180.45%2C31.23%20182.95%2C29.175%20182.95%2C26.13C182.95%2C24.576%20182.506%2C23.37%20181.637%2C22.554C180.894%2C21.854%20179.907%2C21.459%20178.44%2C21.254L178.44%2C21.25ZM186.274%2C14.463L186.274%2C17.605L190.54%2C17.605L190.54%2C31.09L194.026%2C31.09L194.026%2C17.604L198.293%2C17.604L198.293%2C14.462L186.273%2C14.462L186.274%2C14.463Z%22%20style%3D%22fill%3Argb(74%2C144%2C226)%3Bfill-rule%3Anonzero%3B%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M78.243%2C37.628L75.365%2C45.531L77.233%2C45.531L77.695%2C44.181L80.183%2C44.181L80.63%2C45.531L82.502%2C45.531L79.618%2C37.631L78.243%2C37.631L78.243%2C37.628ZM79.691%2C42.638L78.221%2C42.638L78.971%2C40.478L79.697%2C42.638L79.691%2C42.638ZM86.981%2C40.79L86.079%2C40.657C85.825%2C40.627%2085.594%2C40.529%2085.459%2C40.403C85.302%2C40.253%2085.281%2C40.067%2085.281%2C39.966C85.281%2C39.463%2085.671%2C39.152%2086.307%2C39.152C86.775%2C39.152%2087.32%2C39.212%2087.763%2C39.635L87.863%2C39.738L89.019%2C38.6L88.913%2C38.49C88.247%2C37.844%2087.456%2C37.563%2086.347%2C37.563C84.674%2C37.563%2083.547%2C38.545%2083.547%2C40.019C83.547%2C40.699%2083.737%2C41.213%2084.137%2C41.613C84.497%2C41.963%2085.007%2C42.183%2085.699%2C42.289L86.619%2C42.412C86.967%2C42.472%2087.095%2C42.54%2087.209%2C42.647C87.363%2C42.79%2087.395%2C43.014%2087.395%2C43.174C87.395%2C43.699%2086.992%2C43.964%2086.198%2C43.964C85.432%2C43.964%2084.868%2C43.768%2084.468%2C43.371L84.358%2C43.264L83.186%2C44.438L83.291%2C44.548C84.019%2C45.278%2084.879%2C45.588%2086.179%2C45.588C87.956%2C45.588%2089.143%2C44.602%2089.143%2C43.128C89.143%2C42.391%2088.931%2C41.812%2088.511%2C41.413C88.147%2C41.077%2087.665%2C40.883%2086.981%2C40.787L86.981%2C40.79ZM94.291%2C40.79L93.391%2C40.657C93.136%2C40.627%2092.911%2C40.529%2092.771%2C40.403C92.621%2C40.253%2092.596%2C40.067%2092.596%2C39.966C92.596%2C39.463%2092.993%2C39.152%2093.623%2C39.152C94.093%2C39.152%2094.633%2C39.212%2095.073%2C39.635L95.181%2C39.738L96.331%2C38.6L96.221%2C38.49C95.559%2C37.844%2094.771%2C37.563%2093.661%2C37.563C91.993%2C37.563%2090.861%2C38.545%2090.861%2C40.019C90.861%2C40.699%2091.057%2C41.213%2091.456%2C41.613C91.816%2C41.963%2092.32%2C42.183%2093.011%2C42.289L93.926%2C42.412C94.276%2C42.472%2094.411%2C42.536%2094.522%2C42.647C94.672%2C42.787%2094.706%2C43.014%2094.706%2C43.174C94.706%2C43.699%2094.306%2C43.964%2093.508%2C43.964C92.748%2C43.964%2092.183%2C43.768%2091.784%2C43.371L91.674%2C43.264L90.509%2C44.438L90.607%2C44.548C91.337%2C45.278%2092.197%2C45.588%2093.492%2C45.588C95.266%2C45.588%2096.459%2C44.602%2096.459%2C43.128C96.459%2C42.391%2096.247%2C41.812%2095.821%2C41.413C95.456%2C41.073%2094.983%2C40.883%2094.291%2C40.787L94.291%2C40.79ZM98.201%2C45.53L103.511%2C45.53L103.511%2C43.906L99.981%2C43.906L99.981%2C42.356L102.981%2C42.356L102.981%2C40.74L99.981%2C40.74L99.981%2C39.25L103.508%2C39.25L103.508%2C37.628L98.198%2C37.628L98.198%2C45.531L98.201%2C45.53ZM105.161%2C39.25L107.156%2C39.25L107.156%2C45.53L108.936%2C45.53L108.936%2C39.25L110.921%2C39.25L110.921%2C37.628L105.161%2C37.628L105.161%2C39.25ZM120.894%2C41.54L119.039%2C37.714L118.999%2C37.628L117.297%2C37.628L117.297%2C45.531L119.075%2C45.531L119.075%2C41.571L120.308%2C43.981L121.49%2C43.981L122.702%2C41.581L122.702%2C45.536L124.485%2C45.536L124.485%2C37.63L122.775%2C37.63L120.895%2C41.54L120.894%2C41.54ZM129.218%2C37.628L126.338%2C45.531L128.21%2C45.531L128.67%2C44.181L131.156%2C44.181L131.604%2C45.531L133.474%2C45.531L130.594%2C37.631L129.218%2C37.631L129.218%2C37.628ZM130.662%2C42.638L129.189%2C42.638L129.935%2C40.481L130.661%2C42.641L130.662%2C42.638ZM139.238%2C41.925L136.458%2C37.628L134.908%2C37.628L134.908%2C45.531L136.688%2C45.531L136.688%2C41.221L139.473%2C45.537L141.031%2C45.537L141.031%2C37.63L139.239%2C37.63L139.239%2C41.927L139.238%2C41.925ZM145.758%2C37.628L142.875%2C45.531L144.75%2C45.531L145.208%2C44.181L147.698%2C44.181L148.144%2C45.531L150.014%2C45.531L147.129%2C37.631L145.755%2C37.631L145.758%2C37.628ZM147.206%2C42.638L145.733%2C42.638L146.483%2C40.481L147.208%2C42.641L147.206%2C42.638ZM153.821%2C39.183C154.475%2C39.183%20154.874%2C39.507%20155.041%2C40.181L155.069%2C40.299L156.857%2C40.299L156.827%2C40.123C156.637%2C38.893%20155.745%2C37.568%20153.822%2C37.568C152.952%2C37.568%20152.252%2C37.848%20151.662%2C38.445C150.872%2C39.235%20150.872%2C40.223%20150.872%2C41.475L150.872%2C41.695C150.872%2C42.945%20150.872%2C43.935%20151.662%2C44.725C152.242%2C45.305%20152.972%2C45.603%20153.822%2C45.603C154.747%2C45.603%20155.486%2C45.307%20156.075%2C44.688C156.625%2C44.122%20156.84%2C43.44%20156.84%2C42.271L156.84%2C41.011L153.673%2C41.011L153.673%2C42.548L155.073%2C42.548L155.073%2C42.686C155.073%2C43.074%20154.975%2C43.366%20154.766%2C43.601C154.539%2C43.854%20154.214%2C43.978%20153.823%2C43.978C153.473%2C43.978%20153.173%2C43.855%20152.978%2C43.634C152.728%2C43.364%20152.658%2C43.044%20152.658%2C41.588C152.658%2C40.138%20152.728%2C39.828%20152.978%2C39.548C153.178%2C39.322%20153.478%2C39.193%20153.823%2C39.193L153.821%2C39.183ZM158.901%2C45.53L164.211%2C45.53L164.211%2C43.906L160.681%2C43.906L160.681%2C42.356L163.686%2C42.356L163.686%2C40.74L160.683%2C40.74L160.683%2C39.25L164.213%2C39.25L164.213%2C37.628L158.903%2C37.628L158.903%2C45.531L158.901%2C45.53ZM169.811%2C41.54L167.961%2C37.714L167.921%2C37.628L166.211%2C37.628L166.211%2C45.531L167.997%2C45.531L167.997%2C41.571L169.223%2C43.981L170.413%2C43.981L171.623%2C41.581L171.623%2C45.536L173.41%2C45.536L173.41%2C37.63L171.697%2C37.63L169.814%2C41.54L169.811%2C41.54ZM175.944%2C45.53L181.254%2C45.53L181.254%2C43.906L177.728%2C43.906L177.728%2C42.356L180.725%2C42.356L180.725%2C40.74L177.729%2C40.74L177.729%2C39.25L181.255%2C39.25L181.255%2C37.628L175.942%2C37.628L175.942%2C45.531L175.944%2C45.53ZM187.809%2C41.93L185.029%2C37.628L183.473%2C37.628L183.473%2C45.531L185.249%2C45.531L185.249%2C41.221L188.036%2C45.537L189.593%2C45.537L189.593%2C37.63L187.81%2C37.63L187.81%2C41.93L187.809%2C41.93ZM191.562%2C37.628L191.562%2C39.251L193.552%2C39.251L193.552%2C45.531L195.336%2C45.531L195.336%2C39.251L197.326%2C39.251L197.326%2C37.631L191.564%2C37.631L191.562%2C37.628Z%22%20style%3D%22fill%3Argb(164%2C199%2C240)%3Bfill-rule%3Anonzero%3B%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%2C0L59.994%2C0L59.994%2C60L0%2C60L0%2C0Z%22%20style%3D%22fill%3Argb(74%2C144%2C226)%3Bfill-rule%3Anonzero%3B%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19.668%2C45.718L19.668%2C42.348L33.13%2C40.243L19.668%2C19.14L19.668%2C14.284L39.754%2C14.284L39.754%2C19.759L26.908%2C19.759L40.328%2C40.769L40.328%2C45.713L19.668%2C45.713L19.668%2C45.718Z%22%20style%3D%22fill%3Argb(164%2C199%2C240)%3Bfill-rule%3Anonzero%3B%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19.668%2C45.718L19.668%2C40.775L33.084%2C19.76L22.344%2C18.17L19.668%2C14.284L40.328%2C14.284L40.328%2C19.141L26.86%2C40.248L40.328%2C42.322L40.328%2C45.722L19.668%2C45.722L19.668%2C45.718Z%22%20style%3D%22fill%3Awhite%3Bfill-rule%3Anonzero%3B%22%2F%3E%0A%3C%2Fsvg%3E%0A" alt="">
+<br><br>
+                                Set up IT infrastructure<br>
+                                Hired IT team of 7 people<br>
+                                Tech project Lead<br>
+                      </div>
+                        <div class="col-md-4  ">
+                          <h3>ZEITRAUM Website</h3><br>
+                          <a href="http://zeitraum.re" target="_blank"><img src="https://www.zeitraum.re/img/home_prague_6.jpg" width="100%" alt=""></a> <br><br>
+                          Implementation & <br>Booking Engine Project Management
+
+                  </div>
+                  <div class="col-md-4  ">
+                    <h3>ZEITGEIST Website</h3> <br>
+                    <a href="http://zeitgeist.re" target="_blank"><img src="img/zeitgeist.jpg" width="100%" alt=""></a>
+                      <br><br>Project Management
+
+              </div>
+            <div class="col-md-4">
+              </div>
+
+
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="resume" class="resume-section">
+      <!-- Swiper -->
+
+      <div class="swiper-container swiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slide-container">
+                  <div class="row ">
+                    <div class="col-xs-12 col-md-6">
+<h2>2016</h2>
+<a href="http://www.tc.columbia.edu/" target="_blank"><h3>TEACHERS COLLEGE | COLUMBIA UNIVERSITY</h3></a>
+<h4>Web Programmer</h4><br>
+<p>Search Engine for Teachers College articles <br>
+Frontend development
+</p>
+<br>
+<h2>2014</h2>
+<a href="https://www.goethe.de/ins/us/en/sta/ney.html" target="_blank"><h3>GOETHE-INSTITUTE NY </h3></a>
+<h4>Information Manager</h4><br>
+<p><a href="https://www.goethe.de/ins/us/en/kul/ser/uef/gut.html">Gutekunst Prize</a><br>
+  Organizer of Event<br>
+  Prize Branding</p>
+<br><br>
+
+
+<br><br>
+</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <h2>2015</h2>
+                      <a href="http://radishlab.com" target="_blank"><h3>RADISH LAB</h3></a>
+                      <h4>Project Manager/Developer</h4><br>
+                      <p><a href="http://www.ensemblestudiotheatre.org">Ensemble Studio Theatre</a><br>
+                        Database Migration <br>
+                        Frontent development</p>
+                      <p><a href="https://www.philanthropyforum.org/">Global Philanthropy Forum</a><br>
+                          Content Strategy <br>
+                          Concept Development <br>
+                          Database Migration <br>
+                          </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="slide-container">
+                    <div class="row ">
+                      <div class="col-xs-12">
+  <h3>TRAINING</h3>
+  <p>
+  09/2013 - 08/2016 <br>
+  HB Studio New York <br>
+  Hagen Core Training <br>
+  Speech, Voice, Movement, Alexander & Feldenkrais Technique,
+  Scene Study, Acting, Script Analysis, Directing
+  <br><br>
+  06/2011 - 08/2013 <br>
+  Tokyo International Players <br>
+  Speech Training <br>
+  <br><br>
+  09/2010 - 08/2013 <br>
+  Tokyo Improv <br>
+  Improvisation <br>
+  <br><br>
+  2001 - 2003 <br>
+  Theaterhaus Jena, Germany<br>
+  Young Theater Training, <br>
+  Voice, Speech, Scene Study <br>
+  <br><br>
+  1993 - 1998<br>
+  Goethe Gymnasium Bischofswerda, Germany <br>
+  Voice, Speech, Scene Study <br>
+  <br><br>
+                       </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+      </div>
+
+    </section>
+
+                <section id="contact" class="prefooter-wh-section">
+                    <div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+  </div>
+
+
+                      <div class="col-xs-12 ol-sm-5 col-md-5 col-lg-5">
+                        <br><br>
+                        <h4> Stephan Schmidt </h4>
+                        <p>Brooklyn, NYC</p>
+                        <br><br>
+</div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+  <br><br>
+<a href="https://www.twitter.com/_stephanschmidt/" target="_blank"><i class="fa fa-twitter fa-2" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/_stephanschmidt/" target="_blank"><i class="fa fa-instagram fa-2" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><a href="mailto:stephanschmidt.nyc@gmail.com" target="_blank"><i class="fa fa-envelope fa-3" aria-hidden="true"></i></a>
+<br><br>
+</div>
+
+
+
+
+                      </div>
+                      <div class="row">
+
+<div class="col-xs-12">
+
+</div>
+
+                                            </div>
+                      </div>
+                </section>
+
+
+
+
+
+    <script type="text/javascript">
+    $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+    </script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- SWIPE-->
+    <script src="js/swiper.js"></script>
+
+
+
+
+    <!-- BACKSTRETCH-->
+    <script src="js/jquery.backstretch.js"></script>
+    <script>
+    $(document).ready(function(){
+      var viewportWidth = $(window).width();
+      var viewportHeight = $(window).height();
+      var picChoice = '';
+      if(viewportWidth <= 600)picChoice = '_mb/';
+
+            $(".promo").backstretch("img/"+picChoice+"pillowman_1.jpg");
+
+            $(".theater1").backstretch("img/"+picChoice+"pillowman1.jpg");
+            $(".theater2").backstretch("img/"+picChoice+"pillowman2.jpg");
+            $(".theater3").backstretch("img/"+picChoice+"pillowman3.jpg");
+            $(".theater4").backstretch("img/"+picChoice+"metamorphosis1.jpg");
+            $(".theater5").backstretch("img/"+picChoice+"metamorphosis2.jpg");
+            $(".theater6").backstretch("img/"+picChoice+"metamorphosis3.jpg");
+            // $(".theater7").backstretch("img/"+picChoice+"alice2.png");
+            // $(".theater8").backstretch("img/"+picChoice+"subway.jpg");
+            $(".theater9").backstretch("img/"+picChoice+"alice2.png");
+            $(".theater10").backstretch("img/"+picChoice+"alice1.jpg");
+
+            // $(".theater10").backstretch("img/"+picChoice+"fineprint.png");
+
+
+            $(".film1").backstretch("img/"+picChoice+"gift1.jpg");
+            $(".film2").backstretch("img/"+picChoice+"gift2.jpg");
+            $(".film3").backstretch("img/"+picChoice+"gift3.jpg");
+
+
+            $(".portrait1").backstretch("img/"+picChoice+"portrait1.jpg");
+            $(".portrait2").backstretch("img/"+picChoice+"portrait2.jpg");
+            $(".portrait3").backstretch("img/"+picChoice+"portrait3.jpg");
+            $(".portrait4").backstretch("img/"+picChoice+"portrait4.jpg");
+            $(".portrait5").backstretch("img/"+picChoice+"portrait5.jpg");
+            $(".portrait6").backstretch("img/"+picChoice+"portrait6.jpg");
+            $(".portrait7").backstretch("img/"+picChoice+"portrait7.jpg");
+            $(".portrait9").backstretch("img/"+picChoice+"portrait9.jpg");
+            $(".portrait10").backstretch("img/"+picChoice+"portrait10.jpg");
+
+
+
+            $(".rooms3").backstretch("img/"+picChoice+"private_room_large01.jpg");
+            $(".rooms4").backstretch("img/"+picChoice+"private_room_standard01.jpg");
+
+
+            $(".price1").backstretch("img/"+picChoice+"price_3.jpg");
+            $(".price2").backstretch("img/"+picChoice+"price_1.jpg");
+            $(".price3").backstretch("img/"+picChoice+"price_2.jpg");
+
+
+
+            $(".").backstretch("img/"+picChoice+"about_prague_tile_4.jpg");
+            $(".about_prague_tile_2").backstretch("img/"+picChoice+"about_prague_tile_3.jpg");
+            $(".about_prague_tile_3").backstretch("img/"+picChoice+"about_prague_tile_5.jpg");
+            $(".about_prague_tile_4").backstretch("img/"+picChoice+"about_prague_tile_6.jpg");
+            $(".contact1").backstretch("img/"+picChoice+"home_newsletter_1.jpg");
+            });
+
+
+
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper1 = new Swiper('.swiper1', {
+      pagination: '.swiper-pagination1',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 0,
+      watchSlidesVisibility: true,
+      centeredSlides: true,
+      loop: true,
+      speed: 500,
+      parallax: true,
+
+    }
+  );
+    var swiper2 = new Swiper('.swiper2', {
+      pagination: '.swiper-pagination2',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 0,
+      watchSlidesVisibility: true,
+      centeredSlides: true,
+      loop: true,
+      speed: 500,
+      parallax: true,
+
+    });
+
+    var swiper3 = new Swiper('.swiper3', {
+      pagination: '.swiper-pagination3',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 0,
+      watchSlidesVisibility: true,
+      centeredSlides: true,
+      loop: true,
+      speed: 500,
+      parallax: true,
+
+    });
+
+    var swiper4 = new Swiper('.swiper4', {
+      pagination: '.swiper-pagination4',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 0,
+      loop: true,
+      centeredSlides: true,
+      speed: 500,
+
+    });
+
+    function setArrows(element) {
+      var swiperLocator = element.parent().attr('class').split(" ").slice(1,2).join(" ");
+      var currentIndex = window[swiperLocator].activeIndex;
+      var innerText = window[swiperLocator].slides[currentIndex];
+      if($(innerText).html().indexOf("blue-pane") >= 0)
+      {
+        $( "."+swiperLocator+" .swiper-button-next, "+swiperLocator+" .swiper-button-prev" ).addClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-button-prev" ).addClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-pagination-bullet").css("background-color","#fff");
+        $( "."+swiperLocator+" .swiper-pagination-bullet-active").css("background-color","#fff");
+      }
+      if($(innerText).html().indexOf("white-pane") >= 0)
+      {
+        $( "."+swiperLocator+" .swiper-button-next" ).removeClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-button-prev" ).removeClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-pagination-bullet").css("background-color","#007ac5");
+        $( "."+swiperLocator+" .swiper-pagination-bullet-active").css("background-color","#007ac5");
+      }
+    }
+
+    $( ".swiper-button-next, .swiper-button-prev" ).click(function() {
+        setArrows($(this));
+});
+   $(document).ready(function(){
+     $( ".swiper-button-next, .swiper-button-prev" ).each(function() {
+         setArrows($(this));
+     });
+   });
+
+
+
+    </script>
+
+    <!-- CONTACT FORM-->
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script src="./js/contact.js"></script>
+    <script type="text/javascript">
+    // SENDING VARIABLES to DROPDOWN
+var scrt_var = 10;
+openPage = function(scrt_var) {
+location.href = "bookings/";
+// location.href = "bookings/info_page.php?ln=en&id=1&propID="+scrt_var;
+//location.href = "bookings/info_page.php?ln="+$('html').attr('lang')+"&id=1&propID="+scrt_var;
+
+}
+    </script>
+
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+
+</html>
