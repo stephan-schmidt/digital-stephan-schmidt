@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="The Global Academy">
+    <meta name="keywords" content="Curate, Create, Disseminate">
+
+    <title>The Global Academy</title>
+
+    <script type="text/javascript">
+    function scaleToFill() {
+  $('video.video-background').each(function(index, videoTag) {
+     var $video = $(videoTag),
+         videoRatio = videoTag.videoWidth / videoTag.videoHeight,
+         tagRatio = $video.width() / $video.height(),
+         val;
+
+     if (videoRatio < tagRatio) {
+         val = tagRatio / videoRatio * 1.02;
+     } else if (tagRatio < videoRatio) {
+         val = videoRatio / tagRatio * 1.02;
+     }
+
+     $video.css('transform','scale(' + val  + ',' + val + ')');
+
+  });
+}
+
+$(function () {
+  scaleToFill();
+
+  $('.video-background').on('loadeddata', scaleToFill);
+
+  $(window).resize(function() {
+      scaleToFill();
+  });
+});
+    </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/custom_2017.css" >
+
+    <!-- Awesome Font  -->
+<script src="https://use.fontawesome.com/28dd7ddf7d.js"></script>
+      <!--  -->
+    <style type="text/css">
+      .antispam { display:none;}
+      @font-face {
+          font-family: 'source_serif_proregular';
+          src: url('fonts/sourceserifpro-regular-webfont.woff2') format('woff2'),
+               url('fonts/sourceserifpro-regular-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+
+      }
+    </style>
+
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body data-spy="scroll" >
+
+
+
+  <section  class="header">
+  <div class="container-fluid">
+    <div class="row video_intro">
+
+          <div class="col-lg-9 col-sm-8 ">
+                         <h3><a href="index.html">  THE GLOBAL ACADEMY</a></h3>
+                         <a href="#" target="_blank"><i class="fa fa-share-alt fa-3 d-lg-none d-xl-none" style="float:right" aria-hidden="true"></i></a>
+
+                         </div>
+          <div class="col-lg-2 text-right d-none d-sm-block">
+            <p>USE OUR<br>CONTENT</p>
+
+          </div>
+          <div class="col-lg-1 d-none d-md-block col-lg-1">
+            <a href="#" target="_blank"><i class="fa fa-share-alt fa-3" aria-hidden="true"></i></a>
+          </div>
+          <div class="d-none d-md-block col-sm-12">
+                         <a href="#" target="_blank"><i class="fa fa-share-alt fa-3 d-lg-none d-xl-none" style="float:right" aria-hidden="true"></i></a>
+                         </div>
+
+          </div>
+          <div class="row">
+            <div class="d-none d-md-block col-sm-4">
+
+                           </div>
+            <div class="d-none d-md-block d-sm-none col-sm-4 text-center header-label">
+            <p>Special Report</p>
+              <h1>WILDFIRES</h1>
+                           </div>
+                           <div class="d-none d-md-block col-sm-4 text-center">
+                                          </div>
+
+          </div>
+        </div>
+</section>
+
+
+  <section id="header_report" class="header-report">
+    <div class="row">
+    <div class="col-sm-12 col-centered">
+<h4>LEARNING FROM INDIGENOUS TRADITIONS</h4>
+</div>
+    </div>
+    <div class="row">
+
+      <div class="col-sm-12 col-md-3 text-left">
+        <div class="d-sm-none">
+          <h1>Special Report: WILDFIRES</h1>
+        </div>
+        <p>With climate change wildfires have become more severe over the last 15 years; they will intensify in the next 20 to 50 years.</p>
+        <p>Wildfire experts predict that by 2041, there will be four large, high-intensity forest fires for every three that occur now, with the number of days when conditions are conducive to fires increasing. </p>
+      </div>
+
+      <div class="col-sm-12 col-md-6 map_intro">
+        <div class="map_intro_2" style="height:100%;">
+
+        </div>
+        <!-- <img class="picture-background" src="https://lance-modis.eosdis.nasa.gov/imagery/firemaps/small_current_firemap.jpg" alt=""  align="right"> -->
+        <!-- <img class="picture-background" src="https://firms.modaps.eosdis.nasa.gov/wms/mapserv.php?map=/mapfiles/region_global.light.map&mode=map&mapext=-168.3%20-106.79999999999998%20168.59999999999997%20106.5&mapsize=1123%20711&layers=fire_square&fv=viirs&start=2017-11-06&end=2017-11-07&sat=&today=2017-11-07&yesterday=2017-11-06" alt=""> -->
+
+
+      </div>
+
+      <div class="col-sm-12 col-md-3 text-left">
+        <p>In some regions of the world countries have decided to mix modern science and indigenous knowledge for a better management.</p>
+        <p>Data collected by NASA shows the outbreaks of wildfires around the world and the damage they have wrought.</p>
+      </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- <section id="header_report" class="header-report">
+      <div class="row">
+      <div class="col-sm-12 col-centered">
+  <h3>HOW WE CAN LEARN FROM INDIGENOUS TRADITIONS</h3>
+  </div>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-12 col-md-3 text-left">
+          <div class="d-sm-none">
+            <h1>Special Report: WILDFIRES</h1>
+          </div>
+          <p>Wildfires occur across a large swathe of the world so there's no one cause or solution for preventing them.<br><br>Wildfires have become more severe over the last 15 years.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 text-center">
+          <img class="picture-background" src="https://lance-modis.eosdis.nasa.gov/imagery/firemaps/small_current_firemap.jpg" alt=""  align="right">
+        </div>
+        <div class="col-sm-12 col-md-3 text-left">
+            <p>They will intensify in the next 20 to 50 years. <br><br>Data collected by NASA shows the outbreaks of wildfires around the world and the damage they have wrought.<br></p>
+        </div>
+        </div>
+      </div>
+      </section> -->
+
+    <section id="content_landing" class="content_landingpage">
+
+<div class="container-fluid">
+  <div class="row" data-spy="affix" data-offset-top="197">
+  <div class="col-sm-12 col-md-4 case_studies"><a href="#case_cont"><h4>Case Studies</h4></a></div>
+  <div class="col-sm-12 col-md-4" id="solutions"><a href="#case_cont"><h4>Solutions</h4></a></div>
+  <div class="col-sm-12 col-md-2" id="facts_data"><a href="#case_cont"><h4>Facts & Data</h4></a></div>
+  <div class="col-sm-12 col-md-2" id="solutions"><a href="#case_cont"><h4>Production Team</h4></a></div>
+
+</div>
+<div class="row">
+  <div class="col-sm-12" id="case_cont">
+
+  </div>
+</div>
+
+
+<div class="row">
+
+      <div class="col-sm-12 col-md-4">
+        <div class="">
+<div class="submenu_2 case_studies"><a href="#case_cont"><h4>Case Studies</h4></a></div>
+          <span style="color: #800000;">Australia<br><a id="case_australia" href="#case_cont">Fighting Carbon with Fire</a></span>
+ <br><br>
+          <span style="color: #800000;">USA <br><a id="case_usa1" href="#case_cont">Native American Land-Use Practices and Ecological Impacts</a></span> <br>
+
+          <span style="color: #800000;"><a id="case_usa2" href="#case_cont">How wildfires affect America </a></span><br><br>
+
+          <span style="color: #800000;">Namibia <br><a id="case_namibia1" href="#case_cont">VIDEO INTERVIEW: Potential of Traditional Fire Management and Carbon Farming in Namibia </a></span><br>
+
+          <span style="color: #800000;"><a id="case_namibia2" href="#case_cont"> How communities get involved in forest management</a></span><br><br>
+          <span style="color: #800000;">Chile  <br> <a id="case_chile" href="#case_cont">Pulp and Paper Industry a Culprit in Spread of Chilean Wildfires</a></span> <br><br>
+
+        </div>
+      </div>
+                  <div class="col-sm-12 col-md-4">
+                    <div class="submenu_2" id="solutions"><a href="#case_cont"><h4>Solutions</h4></a></div>
+                    <span style="color: #800000;"><a id="sol_samjohnston" href="#case_cont">Video Interview with Sam Johnston - “Europe should learn from the Indigenous approach”</a></span>
+                    <br><br>
+                    <span style="color: #800000;"><a id="sol_australia_africa" href="#case_cont">Australia and Africa Search Pre-colonial Past to Manage Climate Future</a></span><br><br>
+
+                    <span style="color: #800000;"><a id="sol_investment_policies" href="#case_cont">Investment Policies</a></span><br><br>
+                  </div>
+                  <div class="col-sm-12 col-md-2">
+                    <div class="submenu_2" id="facts_data"><a href="#case_cont"><h4>Facts & Data </h4></a></div>
+                    <span style="color: #800000;"><a id="fact_global_data" href="#case_cont">Global Costs - Human Loss</a></span>
+                    <br><br>
+                    <span style="color: #800000;"><a id="fact_areas_burned" href="case_cont">Areas_burned</a></span><br><br>
+
+                    <span style="color: #800000;"><a id="fact_environment_impact" href="case_cont">Environment Impact</a></span><br><br>
+                    <span style="color: #800000;"><a id="fact_health_impact" href="case_cont">Health Impact</a></span><br><br>
+
+
+                          </div>
+                          <div class="col-sm-12 col-md-2">
+                            <div class="submenu_2" id="facts_data"><a href="#case_cont"><h4>Project Team</h4></a></div>
+
+                            <b>Fabrice Rousselot</b><br>
+                            <b>Reema Rattan</b> <br>
+                            <b>Antonio Castillo</b> <br>
+                            <b>Tito Ambyo</b> <br><br>
+                            <b>Miguel Castillo</b>, <br>
+                            Forest Fire Laboratory, <br>
+                            University of Chile (Chile)<br><br>
+                            <b>Bambang Hero Saharjo</b>, <br>
+                            Bogor Agricultural University (Indonesia)
+                            <br>
+                                  </div>
+                </div>
+                  </div>
+
+      </section>
+
+
+
+
+
+
+
+                <section id="prefooter" class="prefooter-wh-section">
+                    <div class="container-fluid">
+<div class="row">
+
+                      <div class="col-sm-3 col-md-3 col-lg-3">
+                        <br>
+                        <h4> The Global Academy</h4>
+
+</div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+<br>
+<a href="https://www.facebook.com//" target="_blank"><i class="fa fa-facebook-official fa-4" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.twitter.com//" target="_blank"><i class="fa fa-twitter fa-2" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i><a href="#"><i class="fa fa-envelope fa-2" aria-hidden="true"></i></a>
+<br><br>
+</div>
+
+                      </div>
+
+                      </div>
+                </section>
+
+
+
+
+
+    <script type="text/javascript">
+    $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+    </script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- SWIPE-->
+    <script src="js/swiper.js"></script>
+
+  <!-- LOAD DATA in HTML-->
+  <script>
+      $(document).ready(function(){
+
+          $(".submenu_2").css("display","none");
+
+        $("#case_australia").on("click", function () {
+            $(".submenu_2").css("display","block");
+            $("#case_cont").load("australia_1.html");
+        });
+        $("#case_usa1").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("usa_1.html");
+        });
+        $("#case_usa2").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("usa_2.html");
+        });
+        $("#case_namibia1").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("namibia_1.html");
+        });
+        $("#case_namibia2").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("namibia_2.html");
+        });
+        $("#case_chile").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("chile_1.html");
+        });
+        $("#sol_samjohnston").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("solution_1.html");
+        });
+        $("#sol_investment_policies").on("click", function () {
+          $(".submenu_2").css("display","block");
+            $("#case_cont").load("solution_3.html");
+        });
+
+
+
+        $(".case_studies").on("click", function () {
+          $(".submenu_2").css("display","none");
+            $( "#case_cont" ).empty();
+        });
+        $("#facts_data").on("click", function () {
+          $(".submenu_2").css("display","none");
+            $( "#case_cont" ).empty();
+        });
+        $("#solutions").on("click", function () {
+                      $( "#case_cont" ).empty();
+          $(".submenu_2").css("display","none");
+
+        });
+
+
+    });
+  </script>
+
+    <!-- BACKSTRETCH-->
+    <script src="js/jquery.backstretch.js"></script>
+    <script>
+    $(document).ready(function(){
+      var viewportWidth = $(window).width();
+      var viewportHeight = $(window).height();
+      var picChoice = '';
+      if(viewportWidth <= 600)picChoice = '_mb/';
+
+            $(".essay1").backstretch("img/"+picChoice+"essay1.jpg");
+            $(".essay2").backstretch("img/"+picChoice+"essay2.jpg");
+            $(".essay3").backstretch("img/"+picChoice+"essay3.jpg");
+            $(".essay4").backstretch("img/"+picChoice+"essay4.jpg");
+            $(".essay5").backstretch("img/"+picChoice+"essay5.jpg");
+            $(".essay6").backstretch("img/"+picChoice+"essay6.jpg");
+            $(".essay7").backstretch("img/"+picChoice+"essay7.jpg");
+            $(".essay8").backstretch("img/"+picChoice+"essay8.jpg");
+            $(".header").backstretch("img/"+picChoice+"header_2x1.jpg");
+            $(".map_intro").backstretch("img/"+picChoice+"map_world.jpg");
+            $(".map_intro_2").backstretch("https://firms.modaps.eosdis.nasa.gov/wms/mapserv.php?map=/mapfiles/region_global.light.map&mode=map&mapext=-168.3%20-106.79999999999998%20168.59999999999997%20106.5&mapsize=1123%20711&layers=fire_square&fv=viirs&start=2017-11-06&end=2017-11-07&sat=&today=2017-11-07&yesterday=2017-11-06");
+            $(".video_intro").backstretch("video/"+picChoice+"wildfire.mov");
+
+            });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+
+
+    var swiper3 = new Swiper('.swiper3', {
+      pagination: '.swiper-pagination3',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      spaceBetween: 0,
+      watchSlidesVisibility: true,
+      centeredSlides: true,
+      loop: true,
+      speed: 500,
+      parallax: true,
+
+    });
+
+
+    function setArrows(element) {
+      var swiperLocator = element.parent().attr('class').split(" ").slice(1,2).join(" ");
+      var currentIndex = window[swiperLocator].activeIndex;
+      var innerText = window[swiperLocator].slides[currentIndex];
+      if($(innerText).html().indexOf("blue-pane") >= 0)
+      {
+        $( "."+swiperLocator+" .swiper-button-next, "+swiperLocator+" .swiper-button-prev" ).addClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-button-prev" ).addClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-pagination-bullet").css("background-color","#fff");
+        $( "."+swiperLocator+" .swiper-pagination-bullet-active").css("background-color","#fff");
+      }
+      if($(innerText).html().indexOf("white-pane") >= 0)
+      {
+        $( "."+swiperLocator+" .swiper-button-next" ).removeClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-button-prev" ).removeClass("swiper-button-white");
+        $( "."+swiperLocator+" .swiper-pagination-bullet").css("background-color","#007ac5");
+        $( "."+swiperLocator+" .swiper-pagination-bullet-active").css("background-color","#007ac5");
+      }
+    }
+
+    $( ".swiper-button-next, .swiper-button-prev" ).click(function() {
+        setArrows($(this));
+});
+   $(document).ready(function(){
+     $( ".swiper-button-next, .swiper-button-prev" ).each(function() {
+         setArrows($(this));
+     });
+   });
+
+
+
+    </script>
+
+    <!-- CONTACT FORM-->
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script src="./js/contact.js"></script>
+    <script type="text/javascript">
+    // SENDING VARIABLES to DROPDOWN
+var scrt_var = 10;
+openPage = function(scrt_var) {
+
+}
+    </script>
+
+</body>
+
+</html>
