@@ -116,6 +116,17 @@ html {
 .white-pane p
 
 {
+	  color: #000;
+/*   color: #007bc7; */
+  /*color: #fff;*/
+
+
+}
+
+.white-pane a
+
+{
+/* 	  color: #000; */
   color: #007bc7;
   /*color: #fff;*/
 
