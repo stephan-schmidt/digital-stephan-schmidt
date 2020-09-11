@@ -112,25 +112,27 @@ html {
 .white-pane h3,
 .white-pane h4,
 .white-pane h5,
-.white-pane div,
-.white-pane p
-
-{
-	  color: #000;
-/*   color: #007bc7; */
-  /*color: #fff;*/
-
-
-}
-
-.white-pane a
-
+.white-pane div
 {
 /* 	  color: #000; */
   color: #007bc7;
   /*color: #fff;*/
 
 
+}
+
+.white-pane p
+{
+	  color: #000;
+/*   color: #007bc7; */
+  /*color: #fff;*/
+}
+
+.white-pane a
+{
+/* 	  color: #000; */
+  color: #007bc7;
+  /*color: #fff;*/
 }
 
 .white-pane .btn-default
