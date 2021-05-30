@@ -818,17 +818,17 @@ box-shadow: 0px 0px 0px #fff;
      max-height: 1840px;
   }
   .tcglobal-section .white-pane {
-    min-height: 1840px;
+    min-height: 1040px;
     padding-right: 20px;
     max-width: 400px!important;
 }
 
 .unu-section {
-   min-height: 2140px;
-   max-height: 2140px;
+   min-height: 1040px;
+   max-height: 1040px;
 }
 .unu-section .blue-pane {
-  min-height: 2140px;
+  min-height: 1840px;
 
   max-width: 400px!important;
 }
